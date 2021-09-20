@@ -136,8 +136,7 @@ table {
 @media (max-width: 960px) and (min-width: 780px) {
   .footer-content {
     height: 224px;
-    width: 768px;
-    margin-left: 41px;
+    width: 700px;
   }
 }
 
@@ -183,7 +182,7 @@ table {
 
 @media (max-width: 960px) and (min-width: 780px) {
   .footer-content__company {
-    margin-left: 87px;
+    margin-left: 10px;
   }
 }
 
@@ -285,12 +284,6 @@ li {
           align-items: flex-end;
 }
 
-@media (max-width: 960px) and (min-width: 780px) {
-  .signature {
-    margin-right: 59px;
-  }
-}
-
 @media (max-width: 779px) and (min-width: 310px) {
   .signature {
     display: -webkit-box;
@@ -323,6 +316,12 @@ li {
   margin-left: 211px;
   color: #CCCCCC;
   padding-bottom: 6px;
+}
+
+@media (max-width: 960px) and (min-width: 780px) {
+  .signature__designed {
+    margin-left: 1px;
+  }
 }
 
 @media (max-width: 779px) and (min-width: 310px) {
